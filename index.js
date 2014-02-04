@@ -9,6 +9,8 @@ module.exports = function(w, opts) {
     return w.throw('provide --umd-wrapper-global GLOBAL option');
   }
 
+  // XXX: add check for more than a single entry point
+
   var main;
 
   w.depTransform(function() {
