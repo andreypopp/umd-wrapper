@@ -1,0 +1,28 @@
+{
+  "name": "umd-wrapper",
+  "version": "0.0.0",
+  "description": "Workflow for browserify to generate AMD wrapper",
+  "main": "index.js",
+  "dependencies": {
+    "derequire": "~0.6.0",
+    "through": "~2.3.4",
+    "umd": "~2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andreypopp/umd-wrapper"
+  },
+  "keywords": [
+    "browserify-workflow"
+  ],
+  "author": "Andrey Popp <8mayday@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreypopp/umd-wrapper/issues"
+  },
+  "homepage": "https://github.com/andreypopp/umd-wrapper"
+}
